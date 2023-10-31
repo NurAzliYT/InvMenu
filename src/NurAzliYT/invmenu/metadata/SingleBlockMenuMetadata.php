@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace  iYT\invmenu\metadata;
+namespace NurAzliYT\invmenu\metadata;
 
 use NurAzliYT\invmenu\session\MenuExtradata;
 use pocketmine\block\Block;
