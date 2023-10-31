@@ -3,9 +3,15 @@
 [![](https://poggit.pmmp.io/shield.state/InvMenu)](https://poggit.pmmp.io/p/InvMenu)
 
 ## Installation
-You can get the compiled .phar file on poggit by clicking [here](https://poggit.pmmp.io/ci/Muqsit/InvMenu/~).
+You can get the compiled .phar file on poggit by clicking [here](https://poggit.pmmp.io/ci/Muqsit/InvM@enu/~).
 
 ## Usage
+**USAGE:**
+```yaml
+libs:
+- src: NurAzliYT/invmenu/InvMenu
+  version: ^1.0.0
+```
 **NOTE:** You MUST register `InvMenuHandler` during plugin enable before you can begin creating `InvMenu` instances.
 ```php
 if(!InvMenuHandler::isRegistered()){
